@@ -1,0 +1,13 @@
+Version control is used to control various version sof the code that we write.
+
+git is a control system used by various developer.
+----
+git --version - tells the version installed on the computer
+
+* * * * * * * * * * * ****************
+
+git init  - it initializes the git repository (repo) - this needs to be done for every project in their respective directory.  
+
+rm -rf .git   - removes the hidden git folder.
+
+staging area is a special place that git uses to keep track of all files. 
