@@ -1,6 +1,6 @@
 Version control is used to control various versions of the code that we write.
 
-git is a control system used by various developer.
+git is a "distributed version control system" used by various developer.
 ----
 git --version - displays details of the version installed on your computer
 
