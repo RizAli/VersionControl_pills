@@ -1,13 +1,60 @@
-Version control is used to control various version sof the code that we write.
+Version control is used to control various versions of the code that we write.
 
 git is a control system used by various developer.
 ----
-git --version - tells the version installed on the computer
+git --version - displays details of the version installed on your computer
 
-* * * * * * * * * * * ****************
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-git init  - it initializes the git repository (repo) - this needs to be done for every project in their respective directory.  
+git init  - it initializes the git repository (repo) - this needs 
+=========
+to be done for every project in their respective directory.  
 
 rm -rf .git   - removes the hidden git folder.
-
+============
 staging area is a special place that git uses to keep track of all files. 
+
+git add filename   - adds the file on the staging area.
+=================
+
+git Commit command
+===================
+the commit command commits everything in the staging area
+
+git commit -m -a "message - what is being committed"
+
+
+git status
+=========== 
+gives an overview of what files have changed since the last commit
+
+
+git rm "file name"  = git removes the file
+===================
+
+
+We can to go back to the "first commit". Let's use the commit hash (or SHA) to go to it.
+
+git checkout 176dbe14245b
+=========================
+this takes us back to a particular commit
+
+to return to master
+git checkout master
+
+
+Noes: 
+================================================================
+I can now initialise a new repo using git init, stage new files by adding using git add, commit changes using git commit -a -m and checkout any particular commit using hash or SHA
+
+
+
+
+
+
+
+
+
+
+
+
